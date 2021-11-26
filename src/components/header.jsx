@@ -23,29 +23,21 @@ export const Header = (props) => {
                                     <a className="page-scroll" href="#home">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="page-scroll" href="#service">Services</a>
+                                    <a className="page-scroll" href="#about">About Us</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="page-scroll" href="#about">About</a>
+                                    <a className="page-scroll" href="#projects">Projects</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="page-scroll" href="#portfolio">Portfolio</a>
+                                    <a className="page-scroll" href="#footer">Contact</a>
                                 </li>
-                                <li className="nav-item">
-                                    <a className="page-scroll" href="#testimonial">Clients</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="page-scroll" href="#blog">Blog</a>
-                                    <ul className="sub-menu">
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul> 
-                                </li>
+                                
+                                
                             </ul>
                         </div> 
                         
                         <div className="navbar-btn d-none d-sm-inline-block">
-                            <a className="main-btn" data-scroll-nav="0" href="#pricing">Download</a>
+                            
                         </div>
                     </nav>
                 </div>
@@ -56,12 +48,14 @@ export const Header = (props) => {
     <div id="home" className="header-hero header-bg bg_cover d-lg-flex align-items-center" >
         <div className="container ">
             <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-8">
                     <div className="header-hero-content">
-                        <h1 className="hero-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">You are using free lite version of Explore</h1>
-                        <p className="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Please, purchase full version of the template to get all sections, features and commercial license</p>
-                        <div className="header-play wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-                            <a className="play-btn" href="https://rebrand.ly/explore-ud">Purchase Now <i className="lni-cart-full"></i></a>
+                        <h4 className="hero-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">A massive amount of energy pushing for the creation of something new</h4>
+                        {/* <h4 className="hero-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">for the creation of something new</h4> */}
+                        <h1 className="supernova-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">SUPERNOVA</h1>
+                        {/* <p className="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Please, purchase full version of the template to get all sections, features and commercial license</p> */}
+                        <div className="header-play know-more wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
+                            <a className="play-btn" href="https://rebrand.ly/explore-ud">Know more </a>
                         </div>
                     </div> 
                 </div>
