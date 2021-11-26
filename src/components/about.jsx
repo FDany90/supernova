@@ -2,7 +2,7 @@ export const About = (props) => {
     return (
   
       
-      <section id="projects" className="about-area pt-110 pb-120">
+      <section id="about" className="about-area pt-110 pb-120">
           <div className="container">
               <div className="row justify-content-center">
                   <div className="col-lg-9">
@@ -17,12 +17,9 @@ export const About = (props) => {
                 <div className="col-lg-6">
                       <div className="about-content mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
                           <h4 className="title">The Team</h4>
-                          
-                        
-                          
+
                             <div className="row mt-50 justify-content-center">
                             
-
                                 {/* TEAM 1 */}
                             <div className="col-lg-5 col-sm-6 col-xs-12">
 
@@ -32,12 +29,10 @@ export const About = (props) => {
                                     <div className="overlay"></div>
                                     <div className="team-inner">
                                     <h4 className="team-title">David Delgado</h4>
-                                    <p>Chief Technical Officer</p>
+                                    <p>CEO & Co Founder</p>
                                     <ul className="social-list">
-                                    <li className="facebook"><a href="#"><i className="fa fa-facebook"></i></a></li>
                                     <li className="twitter"><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                    <li className="google-plus"><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                                    <li className="linkedin"><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                                    <li className="linkedin"><a href="https://www.linkedin.com/in/david-jos%C3%A9-delgado-nava-2b3b8196/ "  target="_blank"><i className="fa fa-linkedin"></i></a></li>
                                     </ul>
                                     </div>
                                     </div>
@@ -56,12 +51,10 @@ export const About = (props) => {
                                     <div className="overlay"></div>
                                     <div className="team-inner">
                                     <h4 className="team-title">Daniel Fernandez</h4>
-                                    <p>Chief Technical Officer</p>
+                                    <p>CTO & Co Founder</p>
                                     <ul className="social-list">
-                                    <li className="facebook"><a href="#"><i className="fa fa-facebook"></i></a></li>
                                     <li className="twitter"><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                    <li className="google-plus"><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                                    <li className="linkedin"><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                                    <li className="linkedin"><a href="https://www.linkedin.com/in/dani-fernandez/"  target="blank"><i className="fa fa-linkedin"></i></a></li>
                                     </ul>
                                     </div>
                                     </div>

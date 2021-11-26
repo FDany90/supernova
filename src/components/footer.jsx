@@ -25,23 +25,28 @@ export const Footer = (props) => {
                                 <h5 className="title">Contact Us</h5>
                             </div>
                             <div className="contact pt-10">
-                                <p className="text">supernovastudiosS@gmail.com</p>
+                                <p className="text">supernovastudios@gmail.com</p>
 
                                 <div className='social'>
                                     <ul>
                                     <li>
                                         <a href={props.data ? props.data.facebook : '/'}>
-                                        <i className='fa fa-facebook'></i>
+                                        <i className='fab fa-discord'></i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href={props.data ? props.data.twitter : '/'}>
-                                        <i className='fa fa-twitter'></i>
+                                        <i className='fab fa-twitter'></i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href={props.data ? props.data.youtube : '/'}>
-                                        <i className='fa fa-youtube'></i>
+                                        <i className='fab fa-youtube'></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={props.data ? props.data.youtube : '/'}>
+                                        <i className='fab fa-telegram'></i>
                                         </a>
                                     </li>
                                     </ul>

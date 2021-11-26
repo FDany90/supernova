@@ -55,7 +55,7 @@ export const Header = (props) => {
                         <h1 className="supernova-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">SUPERNOVA</h1>
                         {/* <p className="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Please, purchase full version of the template to get all sections, features and commercial license</p> */}
                         <div className="header-play know-more wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-                            <a className="play-btn" href="https://rebrand.ly/explore-ud">Know more </a>
+                            <a className="page-scroll play-btn" href="#about">Know more</a>
                         </div>
                     </div> 
                 </div>
