@@ -15,7 +15,7 @@ export const Projects = (props) => {
             <div className="row align-items-center">
                 <div className="col-lg-6">
                     <div className="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="images/about.jpg" alt=""/>
+                        <img src="images/arcade.png" alt=""/>
                     </div> 
                 </div>
                 <div className="col-lg-6">

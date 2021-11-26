@@ -27,7 +27,7 @@ export const About = (props) => {
                             <div className="col-lg-5 col-sm-6 col-xs-12">
 
                                     <div className="single-team mb-4">
-                                    <img src="images/team/team1.png" alt=""/>
+                                    <img src="images/team/david.png" alt=""/>
                                     <div className="team-details">
                                     <div className="overlay"></div>
                                     <div className="team-inner">
@@ -51,7 +51,7 @@ export const About = (props) => {
                                 <div className="col-lg-5 col-sm-6 col-xs-12">
 
                                     <div className="single-team mb-4">
-                                    <img src="images/team/team2.png" alt=""/>
+                                    <img src="images/team/dani.png" alt=""/>
                                     <div className="team-details">
                                     <div className="overlay"></div>
                                     <div className="team-inner">
