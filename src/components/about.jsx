@@ -31,8 +31,8 @@ export const About = (props) => {
                                     <h4 className="team-title">David Delgado</h4>
                                     <p>CEO & Co Founder</p>
                                     <ul className="social-list">
-                                    <li className="twitter"><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                    <li className="linkedin"><a href="https://www.linkedin.com/in/david-jos%C3%A9-delgado-nava-2b3b8196/ "  target="_blank"><i className="fa fa-linkedin"></i></a></li>
+                                    <li className="twitter"><a href="#"><i className="fab fa-twitter"></i></a></li>
+                                    <li className="linkedin"><a href="https://www.linkedin.com/in/david-jos%C3%A9-delgado-nava-2b3b8196/ "  target="_blank"><i className="fab fa-linkedin"></i></a></li>
                                     </ul>
                                     </div>
                                     </div>
@@ -53,8 +53,8 @@ export const About = (props) => {
                                     <h4 className="team-title">Daniel Fernandez</h4>
                                     <p>CTO & Co Founder</p>
                                     <ul className="social-list">
-                                    <li className="twitter"><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                    <li className="linkedin"><a href="https://www.linkedin.com/in/dani-fernandez/"  target="blank"><i className="fa fa-linkedin"></i></a></li>
+                                    <li className="twitter"><a href="#"><i className="fab fa-twitter"></i></a></li>
+                                    <li className="linkedin"><a href="https://www.linkedin.com/in/dani-fernandez/"  target="blank"><i className="fab fa-linkedin"></i></a></li>
                                     </ul>
                                     </div>
                                     </div>
