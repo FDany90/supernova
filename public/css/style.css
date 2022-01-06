@@ -1037,12 +1037,14 @@ p {
   font-weight: 700;
   color: #fff;
   text-align: left;
+  font-family: "Franklin Gothic Medium", sans-serif;
 }
 .supernova-title {
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   text-align: left;
+  margin-top: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-hero-content .hero-title {
@@ -1856,14 +1858,15 @@ label {
   width: 100%;
 }
 
-.footer-about .text {
-  padding-top: 25px;
+.footer-about {
+  /* padding-top: 25px; */
+  margin-right: 100px;
   font-size: 16px;
   color: #fff;
 }
 
 .footer-title .title {
-  font-size: 18px;
+  font-size: 35px;
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
@@ -1886,8 +1889,10 @@ label {
 }
 
 .footer-contact .text {
-  font-size: 16px;
+  font-size: 25px;
   padding-top: 15px;
+  padding-bottom: 15px;
+
   color: #fff;
 }
 .footer-contact .social li {

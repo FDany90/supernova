@@ -10,10 +10,10 @@ export const Footer = (props) => {
             <div className="footer-widget pt-30 pb-70">
                   <div className="row footer-center ">
                       
-                    <div className="col-lg-3 col-sm-6 order-sm-1 order-lg-1">
+                    <div className="col-lg-4 col-sm-6 order-sm-1 order-lg-1">
                         <div className="footer-about pt-40 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.3s">
                             <a href="#">
-                                <img src="images/logowhite.png" alt="Logo"/>
+                                <img src="images/logowhite2.png" alt="Logo"/>
                             </a>
                            
                         </div> 
@@ -59,7 +59,7 @@ export const Footer = (props) => {
                 </div> 
             </div> 
             <div className="footer-copyright text-center">
-                <p className="text">© 2021  <a href="https://uideck.com" rel="nofollow">Supernova</a> All Rights Reserved.</p>
+                <p className="text">© 2022  <a href="https://uideck.com" rel="nofollow">Supernova</a> All Rights Reserved.</p>
             </div>
         </div> 
     </footer>
