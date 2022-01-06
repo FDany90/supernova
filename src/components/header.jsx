@@ -1,3 +1,5 @@
+
+
 export const Header = (props) => {
   return (
 
@@ -20,7 +22,7 @@ export const Header = (props) => {
                         <div className="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul id="nav" className="navbar-nav m-auto">
                                 <li className="nav-item active">
-                                    <a className="page-scroll" href="#home">Home</a>
+                                    <a className="page-scroll nav-menu-item nav-menu-text" href="#home">Home</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="page-scroll" href="#about">About Us</a>
@@ -36,6 +38,7 @@ export const Header = (props) => {
                             </ul>
                         </div> 
                         
+                       
                         <div className="navbar-btn d-none d-sm-inline-block">
                             
                         </div>
@@ -45,7 +48,11 @@ export const Header = (props) => {
         </div> 
     </div> 
     
+    
+          
     <div id="home" className="header-hero header-bg bg_cover d-lg-flex align-items-center" >
+   
+    {/* <div id="home" className="header-hero  d-lg-flex align-items-center" > */}
         <div className="container ">
             <div className="row">
                 <div className="col-lg-8">
@@ -60,16 +67,18 @@ export const Header = (props) => {
                     </div> 
                 </div>
             </div> 
-        </div> 
-        <div className="header-hero-image d-flex align-items-center wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="1.1s">
+              </div> 
+              
+        {/* <div className="header-hero-image d-flex align-items-center wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="1.1s">
             <div className="image">
                 <img src="images/hero-image.png" alt="Hero Image"/>
             </div>
-        </div> 
+        </div>  */}
 
-        <div className="header-shape">
+              
+        {/* <div className="header-shape">
             <img src="images/shape/header-shape.png" alt="shape"/>
-        </div>
+        </div> */}
     </div> 
 </header>
 

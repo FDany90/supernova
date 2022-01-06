@@ -10,7 +10,7 @@ export const Projects = (props) => {
                 <div className="col-lg-9">
                     <div className="about-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         {/* <h2 className="welcome">WELCOME</h2> */}
-                        <h2 className="title">PROJECTS</h2>
+                        <h1 className="title">PROJECTS</h1>
                     </div>
                   </div>
                   
@@ -25,7 +25,7 @@ export const Projects = (props) => {
                 </div>
                 <div className="col-lg-6">
                     <div className="about-content mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <h4 className="title">GAME ROOM</h4>
+                        <h1 className="title">GAME ROOM</h1>
                         <ul className="about-line">
                             <li></li>
                             <li></li>

@@ -42,7 +42,7 @@
 	1. IMPORT GOOGLE FONTS
    ========================================================================== */
 @font-face {
-  font-family: "Roboto";
+  font-family: "Futura Lt BT", sans-serif;
   font-style: normal;
   font-weight: 300;
   src: local("Roboto Light"), local("Roboto-Light"),
@@ -50,7 +50,7 @@
       format("truetype");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Futura Lt BT", sans-serif;
   font-style: normal;
   font-weight: 400;
   src: local("Roboto"), local("Roboto-Regular"),
@@ -58,7 +58,7 @@
       format("truetype");
 }
 @font-face {
-  font-family: "Roboto";
+  font-family: "Futura Lt BT", sans-serif;
   font-style: normal;
   font-weight: 500;
   src: local("Roboto Medium"), local("Roboto-Medium"),
@@ -84,8 +84,27 @@
 /* ==========================================================================
 	2. GENERAL
    ========================================================================== */
+
+#video {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Futura Lt BT", sans-serif;
   color: #333;
   font-size: 14px;
   font-weight: 400;
@@ -145,7 +164,7 @@ a:not([href]):not([tabindex]):hover {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   display: inline-block;
-  font-family: "Lato", sans-serif;
+  font-family: "Futura Lt BT", sans-serif;
 }
 .btn:focus,
 .btn:active {
@@ -629,6 +648,13 @@ button:focus {
   font-size: 36px;
   line-height: 50px;
 }
+
+.nav-menu-item {
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+.nav-menu-text {
+  font-size: 25px;
+}
 .contents .header-button .btn i {
   margin-left: 10px;
 }
@@ -690,7 +716,15 @@ button:focus {
    ========================================================================== */
 #about {
   position: relative;
-  background: #f2f2f2;
+  background: #ffffff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#projects {
+  background: url(../images/projects-bg.png) center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .item-boxes {
   text-align: center;
@@ -1284,7 +1318,7 @@ button:focus {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: "Lato", sans-serif;
+  font-family: "Futura Lt BT", sans-serif;
 }
 .form-control:focus {
   color: none !important;
@@ -1398,7 +1432,7 @@ button:focus {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: "Lato", sans-serif;
+  font-family: "Futura Lt BT", sans-serif;
   cursor: pointer;
 }
 /* ==========================================================================
@@ -1451,7 +1485,7 @@ footer {
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  font-family: "Lato", sans-serif;
+  font-family: "Futura Lt BT", sans-serif;
   cursor: pointer;
 }
 /* ==========================================================================

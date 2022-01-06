@@ -33,7 +33,7 @@
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700&display=swap");
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Futura Lt BT", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #798795;
@@ -86,7 +86,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Futura Lt BT", sans-serif;
   font-weight: 700;
   color: #404040;
   margin: 0px;
@@ -94,6 +94,7 @@ h6 {
 
 h1 {
   font-size: 48px;
+  font-family: "Franklin Gothic Medium", sans-serif;
 }
 
 h2 {
@@ -106,6 +107,7 @@ h3 {
 
 h4 {
   font-size: 22px;
+  font-family: "Futura Lt BT", sans-serif;
 }
 
 h5 {
@@ -124,20 +126,23 @@ ol {
 }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   color: #798795;
   margin: 0px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Franklin Gothic Medium", sans-serif;
 }
 
+.text-left {
+  text-align: left;
+}
 .download-bg {
   background: url(../images/app-bg.jpg) center center no-repeat;
 }
 
 .footer-bg {
-  background: url(../images/footer-bg.jpg) center center no-repeat;
+  background: url(../images/footer-bg.png) center center no-repeat;
 }
 
 .footer-center {
@@ -208,9 +213,17 @@ p {
     font-size: 16px;
   }
 }
+
+.title {
+  color: #302d8e;
+  font-size: 70px;
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+
 .section-title .title {
   font-size: 32px;
   padding-top: 10px;
+  font-family: "Franklin Gothic Medium", sans-serif;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-title .title {
@@ -595,11 +608,12 @@ p {
 .know-more {
   text-align: left;
 }
+
 .header-bg {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../images/header-background.jpg) center center no-repeat;
+  background: url(../images/header-background.png) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -709,10 +723,13 @@ p {
 .navbar-nav .nav-item {
   margin-left: 40px;
   position: relative;
+
+  font-size: 25px;
 }
 .navbar-nav .nav-item:first-child {
   margin-left: 0;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar-nav .nav-item {
     margin-left: 30px;
@@ -729,7 +746,7 @@ p {
   }
 }
 .navbar-nav .nav-item a {
-  font-size: 14px;
+  font-size: 25px;
   font-weight: 600;
   color: #fff;
   -webkit-transition: all 0.3s linear;
@@ -937,6 +954,7 @@ p {
   height: 800px;
   position: relative;
   z-index: 5;
+  background-color: rgb(255, 255, 255);
 }
 @media only screen and (min-width: 1400px) {
   .header-hero {
@@ -1021,7 +1039,7 @@ p {
   text-align: left;
 }
 .supernova-title {
-  color: rgb(0, 212, 250);
+  color: rgb(255, 255, 255);
   font-size: 40px;
   font-weight: 700;
   text-align: left;
@@ -1083,13 +1101,14 @@ p {
 /*===========================
         03.ABOUT css 
 ===========================*/
-.about-title .welcome {
+
+about-area .about-title .welcome {
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: #05de7d;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Franklin Gothic Medium", sans-serif;
 }
 @media (max-width: 767px) {
   .about-title .welcome {
@@ -1097,9 +1116,10 @@ p {
   }
 }
 .about-title .title {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   font-weight: 400;
-  font-size: 32px;
+  font-size: 70px;
+  font-family: "Franklin Gothic Medium", sans-serif;
 }
 @media (max-width: 767px) {
   .about-title .title {
@@ -1115,8 +1135,9 @@ p {
 }
 
 .about-content .title {
-  font-size: 32px;
+  font-size: 50px;
   font-weight: 500;
+  font-family: "Franklin Gothic Medium", sans-serif;
 }
 @media (max-width: 767px) {
   .about-content .title {
@@ -1240,21 +1261,25 @@ p {
        04.ANALYSIS  css 
 ===========================*/
 .analysis-bg {
-  background: url(../images/analysis.jpg) center center no-repeat;
+  background: url(../images/timeline-bg.png) center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-color: #a1b2e0; */
 }
-/*
-.analysis-bg {
+
+/* 
+ .analysis-bg {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../images/analysis.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+   background: url(../images/analysis.jpg) center center no-repeat; 
+  background-color: #2862ce;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
-*/
+}  */
+
 .analysis-title .title {
   font-size: 60px;
   font-weight: 700;
@@ -1585,7 +1610,7 @@ p {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Futura Lt BT", sans-serif;
   float: left;
 }
 #contact .form-control {
@@ -1807,7 +1832,8 @@ label {
 ===========================*/
 .footer-area {
   position: relative;
-  padding-top: 90px;
+  padding-top: 180px;
+  background-color: #2d2992;
 }
 @media (max-width: 767px) {
   .footer-area {

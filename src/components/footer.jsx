@@ -3,9 +3,9 @@ export const Footer = (props) => {
 
     
     <footer id="footer" className="footer-area bg_cover footer-bg " >
-        <div className="footer-shape">
+        {/* <div className="footer-shape">
             <img src="images/shape/footer-shape.png" alt="footer shape"/>
-        </div> 
+        </div>  */}
         <div className="container text-center">
             <div className="footer-widget pt-30 pb-70">
                   <div className="row footer-center ">
@@ -13,7 +13,7 @@ export const Footer = (props) => {
                     <div className="col-lg-3 col-sm-6 order-sm-1 order-lg-1">
                         <div className="footer-about pt-40 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.3s">
                             <a href="#">
-                                <img src="images/logo.png" alt="Logo"/>
+                                <img src="images/logowhite.png" alt="Logo"/>
                             </a>
                            
                         </div> 

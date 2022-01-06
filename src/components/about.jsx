@@ -4,24 +4,27 @@ export const About = (props) => {
       
       <section id="about" className="about-area pt-110 pb-120">
           <div className="container">
-              <div className="row justify-content-center">
+              
+                {/* <div className="row justify-content-center">
                   <div className="col-lg-9">
                       <div className="about-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-                          {/* <h2 className="welcome">WELCOME</h2> */}
+                          <h2 className="welcome">WELCOME</h2>
                           <h2 className="title">ABOUT US</h2>
                       </div>
                   </div>
-              </div> 
+                </div>  */}
+                
+                
                 <div className="row align-items-center">
                     
                 <div className="col-lg-6">
                       <div className="about-content mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                          <h4 className="title">The Team</h4>
+                          {/* <h4 className="title">The Team</h4> */}
 
                             <div className="row mt-50 justify-content-center">
                             
                                 {/* TEAM 1 */}
-                            <div className="col-lg-5 col-sm-6 col-xs-12">
+                            <div className="col-lg-6 col-sm-6 col-xs-12">
 
                                     <div className="single-team mb-4">
                                     <img src="images/team/david.png" alt=""/>
@@ -43,7 +46,7 @@ export const About = (props) => {
                                 
                                 {/* TEAM 2 */}
 
-                                <div className="col-lg-5 col-sm-6 col-xs-12">
+                                <div className="col-lg-6 col-sm-6 col-xs-12">
 
                                     <div className="single-team mb-4">
                                     <img src="images/team/dani.png" alt=""/>
@@ -69,12 +72,17 @@ export const About = (props) => {
                       </div> 
                   </div>
                     
-                  <div className="col-lg-6">
+                    <div className="col-lg-6">
+                        
+                        <h1 className="title">ABOUT US</h1>
                       <div className="about-content mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
                           
-                          <p className="text">We are a group of builders that create cool stuff and have fun on the process.
-                            Supernova is the space we created to support the infrastructure of our projects and to reach people for sharing and collaboration.
-                            </p>
+                          <p className="text-left">Supernova is the space we created to support the infrastructure of our projects and to reach people for sharing and collaboration. </p>
+                          <p className="text-left">We aim to build games and apps based on web3 technology. </p>
+                          <p className="text-left">We strongly believe in the era of a decentralized online ecosystem supported by the blockchain, and that is why in our projects we look forward to collaborate with the community as the very center of everything so we can all grow toguether.</p>
+                          <p className="text-left">We start this project as a very small group of people and hope to be growing on the road. If you are a builder/designer/thinker that believes in our ideals:</p>
+
+                          
                           
                             <div className="row">
                             
