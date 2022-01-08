@@ -2,7 +2,17 @@ export const About = (props) => {
     return (
   
       
-      <section id="about" className="about-area pt-110 pb-120">
+        <section id="about" className="about-area pt-110 pb-120">
+            
+            <div class="app-shape-1">
+            <img src="images/shape/circle-shape-2.png" alt="shape"/>
+        </div> 
+        
+              <div class="app-shape-2">
+            <img src="images/shape/triangle-shape-1.png" alt="shape"/>
+            </div> 
+            
+            
           <div className="container">
               
                 {/* <div className="row justify-content-center">
@@ -78,21 +88,14 @@ export const About = (props) => {
                       <div className="about-content mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
                           
                           <p className="text-left">Supernova is the space we created to support the infrastructure of our projects and to reach people for sharing and collaboration. </p>
+                          <br />          
                           <p className="text-left">We aim to build games and apps based on web3 technology. </p>
                           <p className="text-left">We strongly believe in the era of a decentralized online ecosystem supported by the blockchain, and that is why in our projects we look forward to collaborate with the community as the very center of everything so we can all grow toguether.</p>
-                          <p className="text-left">We start this project as a very small group of people and hope to be growing on the road. If you are a builder/designer/thinker that believes in our ideals:</p>
+                          <br />             
+                          <p className="text-left">We start this project as a very small group of people and hope to be growing on the road. </p>
 
-                          
-                          
                             <div className="row">
-                            
 
-                                {/* TEAM 1 */}
-                           
-                                
-                                {/* TEAM 2 */}
-
-                               
                             </div>
 
                             
@@ -100,7 +103,18 @@ export const About = (props) => {
                       </div> 
                   </div>
               </div> 
-          </div>
+        </div>
+        
+        <div class="app-shape-3">
+            <img src="images/shape/circle-shape-1.png" alt="shape"/>
+        </div> 
+        
+
+        <div class="app-shape-4">
+          <img src="images/shape/triangle-shape-2.png" alt="shape"/>
+
+        </div> 
+        
       </section>
       
      

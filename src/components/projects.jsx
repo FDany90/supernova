@@ -3,6 +3,8 @@ export const Projects = (props) => {
 
     
     <section id="projects" className="about-area pt-110 pb-120">
+
+    
           <div className="container">
               
               <div className="row justify-content-center">
@@ -10,7 +12,7 @@ export const Projects = (props) => {
                 <div className="col-lg-9">
                     <div className="about-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         {/* <h2 className="welcome">WELCOME</h2> */}
-                        <h1 className="title">PROJECTS</h1>
+                        <h1 className="title-white">PROJECTS</h1>
                     </div>
                   </div>
                   
@@ -25,14 +27,14 @@ export const Projects = (props) => {
                 </div>
                 <div className="col-lg-6">
                     <div className="about-content mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <h1 className="title">GAME ROOM</h1>
+                        <h1 className="title-white">GAME ROOM</h1>
                         <ul className="about-line">
                             <li></li>
                             <li></li>
                             <li></li>
                             <li></li>
                         </ul>
-                        <p className="text">Game room is a Play to Earn project dedicated to retro gaming with the twist of a reward system based on the blockchain. The concept is simple. ¡Have fun playing classic games and get rewarded!</p>
+                        <p className="text-white">Game room is a very simple Play to Earn project dedicated to retro gaming with the twist of a reward system based on the blockchain. The concept is simple. ¡Have fun playing classic games and get rewarded!</p>
                         
                           <div className="about-counter pt-20">
                           <a className="main-btn" data-scroll-nav="0" href="#pricing">Play Now</a>
@@ -47,7 +49,7 @@ export const Projects = (props) => {
               <div className="row align-items-center">
                 
                   
-                <div className="col-lg-6">
+                {/* <div className="col-lg-6">
                     <div className="about-content mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
                         <h4 className="title">PROJECT W</h4>
                         <ul className="about-line">
@@ -63,13 +65,13 @@ export const Projects = (props) => {
                            
                         </div> 
                     </div> 
-                  </div>
+                  </div> */}
                   
-                  <div className="col-lg-6">
+                  {/* <div className="col-lg-6">
                     <div className="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
                         <img src="images/arcade.png" alt=""/>
                     </div> 
-                  </div>
+                  </div> */}
             </div> 
         </div>
     </section>

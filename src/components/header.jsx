@@ -11,7 +11,7 @@ export const Header = (props) => {
                 <div className="col-lg-12">
                     <nav className="navbar navbar-expand-lg">
                         <a className="navbar-brand" href="index.html">
-                            <img src="images/logowhite3.png" alt="Logo"/>
+                            <img className = "logo" src="images/logoblue.png" alt="Logo"/>
                         </a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="toggler-icon"></span>
@@ -26,6 +26,8 @@ export const Header = (props) => {
                                 </li>
                                 <li className="nav-item">
                                     <a className="page-scroll" href="#about">About Us</a>
+                                </li><li className="nav-item">
+                                    <a className="page-scroll" href="#roadmap">Roadmap</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="page-scroll" href="#projects">Projects</a>
@@ -66,7 +68,10 @@ export const Header = (props) => {
                         </div>
                     </div> 
                 </div>
-            </div> 
+                  </div> 
+                  
+                
+          </div> 
               </div> 
               
         {/* <div className="header-hero-image d-flex align-items-center wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="1.1s">
@@ -79,7 +84,10 @@ export const Header = (props) => {
         {/* <div className="header-shape">
             <img src="images/shape/header-shape.png" alt="shape"/>
         </div> */}
-    </div> 
+              
+              
+          
+          
 </header>
 
   )

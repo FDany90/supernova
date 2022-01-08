@@ -103,6 +103,7 @@ h2 {
 
 h3 {
   font-size: 28px;
+  font-family: "Franklin Gothic Medium", sans-serif;
 }
 
 h4 {
@@ -131,11 +132,28 @@ p {
   line-height: 24px;
   color: #798795;
   margin: 0px;
+  font-family: "Poppins-Light", sans-serif;
+}
+
+.vertical-timeline-element-title {
+  font-size: 30px;
   font-family: "Franklin Gothic Medium", sans-serif;
 }
 
+.vertical-timeline-element-subtitle {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
 .text-left {
   text-align: left;
+}
+
+.text-white {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Poppins-Light", sans-serif;
 }
 .download-bg {
   background: url(../images/app-bg.jpg) center center no-repeat;
@@ -216,6 +234,12 @@ p {
 
 .title {
   color: #302d8e;
+  font-size: 70px;
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+
+.title-white {
+  color: #ffffff;
   font-size: 70px;
   font-family: "Franklin Gothic Medium", sans-serif;
 }
@@ -623,7 +647,7 @@ p {
 .sticky {
   position: fixed;
   z-index: 99;
-  background-color: #fff;
+  background-color: rgb(189, 186, 186);
   -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
@@ -953,7 +977,7 @@ p {
 .header-hero {
   height: 800px;
   position: relative;
-  z-index: 5;
+  z-index: 0;
   background-color: rgb(255, 255, 255);
 }
 @media only screen and (min-width: 1400px) {
@@ -1263,7 +1287,7 @@ about-area .about-title .welcome {
        04.ANALYSIS  css 
 ===========================*/
 .analysis-bg {
-  background: url(../images/timeline-bg.png) center center;
+  background: url(../images/timeline-bg.jpg) center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /* background-color: #a1b2e0; */
@@ -1694,12 +1718,40 @@ label {
   z-index: 5;
 }
 
-.app-shape-1,
-.app-shape-2 {
+.app-shape-1 {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  bottom: 0;
+  right: auto;
+  z-index: 0;
+}
+
+.app-shape-2 {
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.app-shape-3 {
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: auto;
+  right: 0;
+  z-index: 0;
+}
+
+.app-shape-4 {
+  position: absolute;
+  top: auto;
+  left: 0;
+  bottom: auto;
+  right: auto;
+  z-index: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .app-shape-1 img,
@@ -1714,13 +1766,13 @@ label {
   }
 }
 
-.app-shape-2 {
+/* .app-shape-2 {
   top: auto;
-  left: auto;
+  left: 0;
   bottom: 0;
-  right: 0;
-  z-index: -1;
-}
+  right: auto;
+  z-index: 0;
+} */
 
 .app-download-content {
   padding: 0 25px;

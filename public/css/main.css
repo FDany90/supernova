@@ -125,6 +125,10 @@ a {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
+.vertical-timeline-element-title {
+  font-size: 30px;
+  font-family: "Futura Lt BT", sans-serif;
+}
 
 ul {
   margin: 0;
@@ -443,7 +447,7 @@ button:focus {
   outline: none;
 }
 .sticky {
-  background: #fff;
+  background: rgb(255, 255, 255);
   transition: 0.3s;
   position: fixed;
   top: 0;
@@ -459,7 +463,7 @@ button:focus {
 }
 .logo-menu a {
   font-size: 20px;
-  color: #fff;
+  color: rgb(150, 145, 145);
 }
 .menu-bg {
   background-color: #fff !important;
@@ -715,6 +719,9 @@ button:focus {
 	7. About Section Style
    ========================================================================== */
 #about {
+  /* background: url(../images/about-bg.jpg) center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
   position: relative;
   background: #ffffff;
   padding-bottom: 10px;
@@ -722,7 +729,7 @@ button:focus {
 }
 
 #projects {
-  background: url(../images/projects-bg.png) center center;
+  background: url(../images/projects-bg.jpg) center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
