@@ -21,7 +21,7 @@ export const Header = (props) => {
 
                         <div className="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul id="nav" className="navbar-nav m-auto">
-                                <li className="nav-item active">
+                                <li className="nav-item">
                                     <a className="page-scroll nav-menu-item nav-menu-text" href="#home">Home</a>
                                 </li>
                                 <li className="nav-item">

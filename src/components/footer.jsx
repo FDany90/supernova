@@ -7,7 +7,7 @@ export const Footer = (props) => {
             <img src="images/shape/footer-shape.png" alt="footer shape"/>
         </div>  */}
         <div className="container text-center">
-            <div className="footer-widget pt-30 pb-70">
+            <div className="footer-widget  ">
                   <div className="row footer-center ">
                       
                     <div className="col-lg-4 col-sm-6 order-sm-1 order-lg-1">
