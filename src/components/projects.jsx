@@ -35,10 +35,16 @@ export const Projects = (props) => {
                             <li></li>
                         </ul>
                         <p className="text-white">Game room is a very simple Play to Earn project dedicated to retro gaming with the twist of a reward system based on the blockchain. The concept is simple. ¡Have fun playing classic games and get rewarded!</p>
+                   
                         
-                          <div className="about-counter pt-20">
-                          <a className="main-btn" data-scroll-nav="0" href="#pricing">Play Now</a>
-                           
+                          <div className="row align-items-center about-counter pl-120 pt-20">
+                            <div className="col-lg-4">
+                              <a className="main-btn" data-scroll-nav="0" href="#pricing">Play Now</a> 
+                            </div>
+                          
+                            <div className="col-lg-4">
+                              <a className="main-btn" data-scroll-nav="0" href="https://supernova-studios.gitbook.io/gameroom/" target="_blank">Whitepaper</a> 
+                            </div>
                         </div> 
                     </div> 
                 </div>

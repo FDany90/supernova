@@ -178,6 +178,7 @@ p {
 }
 
 /*===== All Button Style =====*/
+/*
 .main-btn {
   display: inline-block;
   font-weight: 600;
@@ -219,7 +220,58 @@ p {
   background-color: rgba(5, 222, 125, 0.3);
   border-color: #05de7d;
 }
+*/
 
+.main-btn {
+  padding: 0 30px;
+  height: 66px;
+  line-height: 60px;
+  text-align: left;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.main-btn:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.main-btn.main-btn-2 {
+  background-color: #fff;
+  color: #05de7d;
+  border-color: #05de7d;
+}
+.main-btn.main-btn-2:hover {
+  background-color: rgba(5, 222, 125, 0.3);
+  border-color: #05de7d;
+}
+/*
+.header-hero-content .header-play .play-btn {
+  padding: 0 30px;
+  height: 66px;
+  line-height: 60px;
+  text-align: left;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.header-hero-content .header-play .play-btn i {
+  padding-left: 15px;
+  align-items: flex-start;
+}
+.header-hero-content .header-play .play-btn:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+*/
 /*===== All Section Title Style =====*/
 .section-title .sub-title {
   font-size: 18px;

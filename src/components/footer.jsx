@@ -25,21 +25,22 @@ export const Footer = (props) => {
                                 <h5 className="title">Contact Us</h5>
                             </div>
                             <div className="contact pt-10">
-                                <p className="text">supernovastudios@gmail.com</p>
+                                <p className="text">supernova.studios.ar@gmail.com</p>
 
                                 <div className='social'>
                                     <ul>
                                     <li>
-                                        <a href={props.data ? props.data.facebook : '/'}>
+                                        <a href='https://discord.gg/DzsFyGmQkh' target="_blank">
                                         <i className='fab fa-discord'></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href={props.data ? props.data.twitter : '/'}>
+                                        <a href='https://twitter.com/SuperNovaOnTwit' target="_blank">
                                         <i className='fab fa-twitter'></i>
                                         </a>
                                     </li>
-                                    <li>
+                                    
+                                    {/* <li>
                                         <a href={props.data ? props.data.youtube : '/'}>
                                         <i className='fab fa-youtube'></i>
                                         </a>
@@ -48,7 +49,7 @@ export const Footer = (props) => {
                                         <a href={props.data ? props.data.youtube : '/'}>
                                         <i className='fab fa-telegram'></i>
                                         </a>
-                                    </li>
+                                    </li> */}
                                     </ul>
                                 </div>
                             </div>
