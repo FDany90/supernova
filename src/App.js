@@ -21,7 +21,7 @@ function App() {
       <About />
       <About />
       <Analysis />
-
+      <Analysis />
       <Projects />
 
       {/* <Download /> */}
